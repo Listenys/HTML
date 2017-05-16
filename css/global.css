@@ -108,6 +108,37 @@ body{
 	}
 #buttons{
 	position: relative;
-	width:100%;
-	height:50px;
+	float: left;
+	width:90%;
+	margin:10px 5% 0 5%;
+	height:40px;
 }	
+	#buttons span{
+		position: relative;
+		float:left;
+	}
+		#pre,#next{
+			height:20px;
+			margin:10px 0;
+		}
+		#pre img,#next img{
+			height:20PX;
+		}
+		#play_stop{
+			height:40px;
+			margin:0 20px;
+		}
+		#play_stop img{
+			height:40px;
+		}
+		#radom{
+			height:40px;
+			margin:8px 0px 8px 40px;
+		}
+		#radom img,#lop img{
+			height:24px;
+		}
+		#lop{
+			height:40px;
+			margin:8px 10px;
+		}
